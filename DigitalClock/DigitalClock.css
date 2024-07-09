@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(27, 44, 27);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#DigitalClock{
+    
+    /*
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    */
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    
+}
+#Clock{
+    color: lime;
+    font-size: 13vw;
+}
+#Date{
+    color: rgb(161, 217, 161);
+    font-size: 5vw;
+}
